@@ -1,0 +1,148 @@
+
+.rectangle{
+    display: flex;
+    align-items: center;
+    padding:10px;
+   background-color: #819171;
+   justify-content: center;
+  
+}
+.tinago{
+    width: 10%;
+    height: auto;
+    display: block;
+   
+}
+.dauis{
+    width: 7.5%;
+    height: auto;
+   
+}
+body {
+    background-image: url("C:/xampp/htdocs/thesis/img/house.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+   
+   
+}
+.form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: black;
+    border-style: solid;
+    padding: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0;
+    border-radius: 20px;
+    background-image: url("C:/xampp/htdocs/thesis/img/placards.jpg");
+    background-size: cover;
+    background-position: center;
+background-color: white;
+
+}
+
+
+.select {
+    border-color: black;
+    border-style: solid;
+    background-color: #0A5C36;
+    position: absolute;
+    top: -.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 50%; /* Adjust the padding-left for the .select element */
+    padding-right: 50%; /* Adjust the padding-right for the .select element */
+    border-radius: 10px;
+    height: 50px; /* Set a fixed height */
+    line-height: 50px; /* Match the line height with the height for vertical centering */
+ padding-bottom: 30px;
+}
+
+.font {
+    text-align: center;
+    position: relative; 
+    bottom: 150px;
+    margin-top: -20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+
+}
+.official{
+    border: 2px solid #000; 
+    border-radius: 30px; 
+    background-color: #95D5B2;
+width: 288px;
+height: 51px;
+margin-top: 50px;
+font-size: larger;
+}
+.user{
+    border: 2px solid #000; 
+    border-radius: 30px; 
+    background-color: #95D5B2;
+width: 288px;
+height: 51px;
+margin-top: 50px;
+font-size: larger;
+cursor: pointer;
+}
+.user:hover{
+    background-color: #A3B18A ;
+ 
+}
+.official:hover{
+    
+        background-color: #A3B18A ;
+     
+}
+.bo{
+    margin-top: 10px;
+}
+.br{
+    margin-top: 10px;
+}
+.logo{
+
+position: absolute;
+width: 400px;
+height: 400px;
+right: 680px;
+top: 250px;
+background: url(logo.png);
+
+}
+
+
+/*
+.official,.user {
+    border: 2px solid #000; 
+    border-radius: 20px; 
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff; 
+    color: #000; 
+    font-size: 14px;
+    cursor: pointer; 
+    margin-bottom: 20px; 
+    line-height: 40px;
+    text-align: center; 
+}
+.form{
+   background-image: url("C:\xampp\htdocs\thesis\img\placards.jpg");
+   background-size: cover;
+   background-position: center; 
+   background-attachment: fixed;
+   color: white;
+   margin: 0;
+   padding: 0;
+}*/
